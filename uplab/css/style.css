@@ -6,11 +6,9 @@ body {
 }
 
 .wrapper {
-	max-width:1400px;
+	max-width:1600px;
 	margin: 0 auto;
-
 }
-
 
 h1 .lg_temp {
 	opacity: 0.9;
@@ -70,6 +68,7 @@ header {
 		text-align: left;		
 		background: url("../img/slad.png") no-repeat right ; 	
 		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+
 }
 
 .logo a {
@@ -108,20 +107,21 @@ header {
 }
 
 .quote {
-	padding: 284px 0;
+			padding-top: 310px;
+	/*height: 259px;*/
 }
 
 .hadding {
 	display: flex;	
 	-ms-align-items:center;
 	align-items: center;
+	text-align: center;
 }
 
 
 .hadding h2 {
-	 /* Style for "Surfing is" */
+	margin: 0  0 0 412px ;
 	opacity: 0.9;	
-	margin-left:25%;
 	color: #333333;
 	font-family: "Playfair Display", Arial, sans-serif;
 	font-size: 62px;
@@ -130,9 +130,10 @@ header {
 	line-height: 38px;
 	letter-spacing: 0.26px;
 	margin-bottom: 29px;
-	display: block;
-
+	display: block;	
 }
+
+
 .hadding p {
 	opacity: 0.9;
 	color: #333333;
@@ -143,5 +144,15 @@ header {
 	text-transform: uppercase;	
 	display: block;
 	letter-spacing: 5.4px;
-	
 }
+.hadding h2 :after {
+	content:  '';
+	display: block;
+	width: 2px;
+	height: 100px;
+	background-color: #5da8ef;
+	position: absolute;
+	margin: 25px 0 0 307px; 
+
+}
+

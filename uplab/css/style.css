@@ -1,0 +1,147 @@
+body {
+	color: #616161;
+	font-family: Poppins, Arial, sans-serif;
+	font-size: 14px;	
+	background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; 
+}
+
+.wrapper {
+	max-width:1400px;
+	margin: 0 auto;
+
+}
+
+
+h1 .lg_temp {
+	opacity: 0.9;
+	color: #5da8ef;
+	font-family: "League Spartan", Arial, sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 16px;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	display: block;
+}
+
+h1 .lg {
+	color: #0b0c11; 
+	font-family: "Playfair Display", Arial, sans-serif;
+	font-size: 62px;
+	display: block;
+	font-weight: 700;
+	line-height: 91px;
+}
+
+h1 .lg_temp_One {
+	/* Style for "One of the" */
+	color: #8f8f8f;
+	font-size: 14px;
+	display: block;
+	font-weight: 300;
+	line-height: 24px;
+	display: block;
+	/*letter-spacing: 0.35px;*/
+}
+
+header {
+	position: absolute;
+	top: 38px;
+	left: 108px;
+	right: 720px;
+	z-index: 99;
+}
+
+.header-wrap {
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	text-align: left;
+}
+
+.banner {
+		height: 572px;
+		position: relative;
+		top: 127px;	
+	   padding-top: 197px;
+		padding-left: 0px; 
+		padding-bottom: 180px; 
+    	margin-left: 106px;
+		text-align: left;		
+		background: url("../img/slad.png") no-repeat right ; 	
+		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+}
+
+.logo a {
+	display: flex;
+	width: 16px;
+	height: 44px;
+	background: url("../img/logo.png") no-repeat center right; 
+	
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+}
+
+.menu_item {
+	margin-left: 40px;
+	left: 152px;
+	position: relative;	
+
+}
+
+.menu_link {
+	width: 406px;
+	height: 8px;
+	opacity: 0.9;	
+	color: #0b0c11;
+	font-family: "League Spartan", Arial, sans-serif;
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 5.58px;
+}
+
+.menu_link:hover{
+	color: #FFE400;
+}
+
+.quote {
+	padding: 284px 0;
+}
+
+.hadding {
+	display: flex;	
+	-ms-align-items:center;
+	align-items: center;
+}
+
+
+.hadding h2 {
+	 /* Style for "Surfing is" */
+	opacity: 0.9;	
+	margin-left:25%;
+	color: #333333;
+	font-family: "Playfair Display", Arial, sans-serif;
+	font-size: 62px;
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0.26px;
+	margin-bottom: 29px;
+	display: block;
+
+}
+.hadding p {
+	opacity: 0.9;
+	color: #333333;
+	font-family: "League Spartan", Arial, sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 66px;
+	text-transform: uppercase;	
+	display: block;
+	letter-spacing: 5.4px;
+	
+}

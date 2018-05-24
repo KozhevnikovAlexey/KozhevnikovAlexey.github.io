@@ -6,8 +6,9 @@ body {
 }
 
 .wrapper {
-	max-width:1600px;
+	max-width:1400px;
 	margin: 0 auto;
+	padding: 0 10 px;
 }
 
 h1 .lg_temp {
@@ -31,7 +32,7 @@ h1 .lg {
 	line-height: 91px;
 }
 
-h1 .lg_temp_One {
+h1 .lg_temp_O {
 	/* Style for "One of the" */
 	color: #8f8f8f;
 	font-size: 14px;
@@ -106,9 +107,12 @@ header {
 	color: #FFE400;
 }
 
+.division{
+padding-bottom: 150px; 
+}
+
 .quote {
 			padding-top: 310px;
-	/*height: 259px;*/
 }
 
 .hadding {
@@ -120,7 +124,7 @@ header {
 
 
 .hadding h2 {
-	margin: 0  0 0 412px ;
+	margin: 0  106px 0 415px ;
 	opacity: 0.9;	
 	color: #333333;
 	font-family: "Playfair Display", Arial, sans-serif;
@@ -152,7 +156,49 @@ header {
 	height: 100px;
 	background-color: #5da8ef;
 	position: absolute;
-	margin: 25px 0 0 307px; 
+	margin: 26px 0 0 307px; 
 
 }
 
+.hadding .lg_temp_O {
+	opacity: 0.65;
+	position: relative;	
+	display: flex;
+	left: 107px;
+	color: #616161;
+	font-family: Poppins, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.35px;	
+	display: block;
+}
+
+
+
+
+
+.Media_Content {
+	/*display: flex;*/
+	align-items: flex-start;
+	/*display: flex;*/
+	margin-top: 9px;
+	
+}
+
+.Media_Content-img {
+	height: 370px;
+	left: 107px;
+	display: inline-block; 
+	position: relative; 
+	margin-bottom: -263px;
+	top:0px;
+}
+.Media_Content-video {
+	align-items: flex-start;
+	position: relative; 
+	height: 549px;
+	margin-top: -109px;
+	left: 625px;
+	top: 43px;
+}

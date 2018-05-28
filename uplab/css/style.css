@@ -2,7 +2,7 @@ body {
 	color: #616161;
 	font-family: Poppins, Arial, sans-serif;
 	font-size: 14px;	
-	background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; 
+	/*background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; */
 }
 
 .wrapper {
@@ -366,7 +366,7 @@ h6 .Surf_Ca{
 	padding-top: 310px;
 	height: 439px;
 	display: block;
-	position: absolute;
+	/*position: absolute;*/
 	top: 121px;
 	left: 108px;
 	right: 720px;
@@ -388,29 +388,24 @@ h6 .Surf_Ca{
 }
 
 .Article_2 .Surf_Ca{
-	position: relative;
+	/*position: relative;*/
 	top: 40px;	
     left: -90px;
 }
 .Article_2 .lg_articl {
-	position: relative;
+	/*position: relative;*/
 	top: 0px;	
    left: 420px;
     display: block;
  	height: 34px;
 }
 .Article_2 .lg_temp_article{
-	position: relative;
+	position: absolute;
 	/*top: 0px;	*/
-	top: 40px;
-    left: 420px;
+		top: 173px;
+    left: 567px;
     display: block;
 
-}
-
-.Media_Shop {
-
-	height: 646px;
 }
 
 .Media_Shop {

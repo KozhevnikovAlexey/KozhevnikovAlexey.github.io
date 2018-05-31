@@ -2,7 +2,8 @@ body {
 	color: #616161;
 	font-family: Poppins, Arial, sans-serif;
 	font-size: 14px;	
-	background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; 
+	/*background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; */
+	background: url("../img/bg-color.png")  no-repeat scroll left top; 
 }
 
 .wrapper {
@@ -489,14 +490,14 @@ letter-spacing: 0.42px;
 	height: 475px;
 	top: 226px;	
     /*left: 309px;*/
-	padding-top: 62px;
+	padding-top: 80px;
 	padding-left: 620px; 
 	/*padding-bottom: 180px; */
    /*margin-left: 14px;*/
    /*margin-right: 88px;*/
 	/*text-align: left;		*/
 	/*padding-bottom: 580px;*/
-	margin-bottom: 158px;
+	margin-bottom: 320px;
  	
 	background: url("../img/img_contact.png") no-repeat left ; 	
 	/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
@@ -514,4 +515,59 @@ letter-spacing: 0.42px;
 	/* Text style for "C, A , 919" */
 	letter-spacing: 0.32px;
 	left: 193px;
+	    top: 14px;
+}
+
+.Contact .Get_in {
+	top: 29px;
+}
+ 
+.Contact .Our {
+		/* Style for "Our Camp" */
+	width: 91px;
+	height: 8px;
+	opacity: 0.27;
+	color: #0b0c11;
+	font-family: "League Spartan";
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 66px;
+	text-transform: uppercase;
+	/* Text style for "O, ur Camp" */
+	letter-spacing: 5.58px;
+}  
+
+.Contact .Read_More :after {
+	width: 125px;
+height: 2px;
+} 
+
+
+
+/*----------foter--------------*/
+
+
+
+footer {
+	position: relative;
+	top: 5px;
+	left: 712px;
+	/*right: 720px;*/
+	/*z-index: 99;*/
+}
+
+.footer-wrap {
+	/*display: flex;*/
+	/*align-items: center;*/
+	justify-content: space-between;
+	text-align: left;
+}
+
+footer .menu {
+
+    position: relative;
+    /* display: block; */
+    top: 20px;
+    left: -387px;
+}
 }

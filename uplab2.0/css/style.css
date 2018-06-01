@@ -1,0 +1,597 @@
+body {
+	color: #616161;
+	font-family: Poppins, Arial, sans-serif;
+	font-size: 14px;	
+	background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; 
+	/*background: url("../img/bg-color.png")  repeat-y 0 0;*/
+	margin:0 ;
+	max-width:100%;
+}
+
+.main {
+	max-width:1200px;
+	margin: 0 0;
+	padding: 0 10 px;
+}
+
+.wrapper {
+	max-width:1400px;
+	margin: 0 0;
+	padding: 0 10 px;
+}
+
+h1 .lg_temp {
+	opacity: 0.9;
+	color: #5da8ef;
+	font-family: "League Spartan", Arial, sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 16px;
+	text-transform: uppercase;
+	letter-spacing: 5.4px;
+	display: block;
+}
+
+h1 .lg {
+	color: #0b0c11; 
+	font-family: "Playfair Display", Arial, sans-serif;
+	font-size: 62px;
+	display: block;
+	font-weight: 700;
+	line-height: 91px;
+}
+
+h1 .lg_temp_O {
+	/* Style for "One of the" */
+	color: #8f8f8f;
+	font-size: 14px;
+	display: block;
+	font-weight: 300;
+	line-height: 24px;
+	display: block;
+	/*letter-spacing: 0.35px;*/
+}
+
+header {
+	position: absolute;
+	top: 38px;
+	left: 108px;
+	right: 720px;
+	z-index: 99;
+}
+
+.header-wrap {
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+	text-align: left;
+}
+
+.banner {
+		height: 572px;
+		align-items: flex-start;
+		position: relative;
+		top: 127px;	
+	   padding-top: 196px;
+		padding-left: 65px; 
+		padding-bottom: 180px; 
+    	/*margin-left: 106px;*/
+  
+		text-align: left;		
+		background: url("../img/slad.png") no-repeat center ; 	
+		  	left:40px;
+		  	margin-right:0px;
+		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+}
+
+.logo a {
+	display: flex;
+	width: 16px;
+	height: 44px;
+	background: url("../img/logo.png") no-repeat center right; 
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+}
+
+.menu_item {
+	margin-left: 40px;
+	left: 152px;
+	position: relative;	
+}
+
+.menu_link {
+	width: 406px;
+	height: 8px;
+	opacity: 0.9;	
+	color: #0b0c11;
+	font-family: "League Spartan", Arial, sans-serif;
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: 5.58px;
+}
+
+.menu_link:hover{
+	color: #FFE400;
+}
+
+.division{
+	padding-bottom: 150px; 
+}
+
+.quote {
+			padding-top: 310px;
+}
+
+.hadding {
+	display: flex;	
+	-ms-align-items:center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.hadding h2 {
+	margin: 0  106px 0 415px ;
+	opacity: 0.9;	
+	color: #333333;
+	font-family: "Playfair Display", Arial, sans-serif;
+	font-size: 62px;
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 38px;
+	letter-spacing: 0.26px;
+	margin-bottom: 29px;
+	display: block;	
+}
+
+
+.hadding p {
+	opacity: 0.9;
+	color: #333333;
+	font-family: "League Spartan", Arial, sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 66px;
+	text-transform: uppercase;	
+	display: block;
+	letter-spacing: 5.4px;
+}
+.hadding h2 :after {
+	content:  '';
+	display: block;
+	width: 2px;
+	height: 100px;
+	background-color: #5da8ef;
+	position: absolute;
+	margin: 26px 0 0 307px; 
+
+}
+
+.hadding .lg_temp_O {
+	opacity: 0.65;
+	position: relative;	
+	left: 107px;
+	color: #616161;
+	font-family: Poppins, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.35px;	
+	display: block;
+}
+
+.Media_Content {
+	/*display: flex;*/
+	align-items: flex-start;
+	/*display: flex;*/
+	margin-top: 9px;
+
+	
+}
+
+.Media_Content .text_Read_More {
+	left: 225px;
+	top: 313px;
+	display: inline-block; 
+	align-items: flex-start;
+	position: relative; 
+}
+
+.Media_Content-img {
+	height: 370px;
+	left: 107px;
+	display: inline-block; 
+	position: relative; 
+	margin-bottom: -263px;
+	top:0px;
+}
+
+
+.Media_Content-video {
+	align-items: flex-start;
+	position: relative; 
+	height: 549px;
+	margin-top: -109px;
+	left: 400px;
+	top: -440px;
+}
+
+
+.Media_Content .lg_temp_O {
+	/* Style for "By better" */
+
+	opacity: 0.65;
+	color: #616161;
+	font-family: Poppins, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	/* Text style for "B, y bette" */
+	letter-spacing: 0.227px;
+}
+
+ .Read_More {
+	/* Style for "Read More" */
+
+
+	color: #333333;
+	font-family: "League Spartan";
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 97px;
+	text-transform: uppercase;
+	/* Text style for "R, ead Mor" */
+	letter-spacing: 5.4px;
+}
+
+.Read_More :after {
+	content:  '';
+	display: block;
+	width: 99px;
+	height: 2px;
+	background-color: #5da8ef;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.41) 0%, 
+	rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+	opacity: 0.7;
+	position: absolute;
+	margin: -34px 0 0 0px; 
+}
+
+.Media_Shop{
+	/*margin-bottom: 1000px;*/
+	height: 646px;
+}
+
+.Article_1{
+   padding-top: 0px;
+	padding-bottom: 310px;
+	height: 439px;
+	display: block;
+	position: absolute;
+	top: 38px;
+	left: 108px;
+	right: 720px;
+	z-index: 99;
+}
+
+h6 .Surf_Ca{
+		/* Style for "Surf Camps" */
+
+	/*margin-left: 150px;*/
+	/*opacity: 0.2;*/
+	color: #0b0c11;
+	font-family: "League Spartan", Arial, sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 66px;
+	text-transform: uppercase;
+	/* Text style for "S, urf Cam" */
+	letter-spacing: 5.4px;
+}
+
+.vert-text{
+	-ms-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+
+	-ms-transform-origin: left top 0;
+	-moz-transform-origin: left top 0;
+	-webkit-transform-origin: left top 0;
+	transform-origin: left top 0;
+
+	margin-left: 30px;
+	padding: 0;
+	float: left;
+	/*height:80px;
+	width:5px;*/
+	white-space: nowrap;
+}
+.Article_1 .Surf_Ca{
+	position: relative;
+	top: 36px;	
+   /*left: 1257px;*/
+}
+.img_article {
+	align-items: flex-start;
+	left: 131px;
+	position: relative;
+	top: 88px;	
+	padding-bottom: 180px; 
+	padding-top: 70px;
+	padding-left: 49px;
+   margin-left: 0px;
+   right: 70px;
+	text-align: left;			
+	background: url("../img/img_article1.png") no-repeat right ; 
+}
+
+.lg_articl {
+	color: #333333;
+	font-family: "Playfair Display", Arial, sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 66px;
+	/* Text style for "Surf Train" */
+	letter-spacing: 0.42px;
+	display: block;
+}
+
+.lg_articl:after {
+	/* Style for "Rectangle" */
+	content:  '';
+	display: block;
+	width: 23px;
+	height: 2px;
+	background-color: #5da8ef;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.41) 0%, 
+	rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+	opacity: 0.7;
+	position: absolute;
+	margin: 3px 0 0 0px; 
+}
+
+.temp_indents {
+	position: relative;
+	/*left: 146px;*/
+}
+
+.lg_temp_article {
+	/* Style for "By better" */
+	opacity: 0.65;
+	top: 32px;
+	color: #616161;
+	font-family: Poppins, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "B, y bette" */
+	letter-spacing: 0.35px;
+	display: block;
+}
+
+.Article_1 .Read_More {
+	top: 49px;
+}
+
+.Article_2 {
+	padding-top: 310px;
+	height: 439px;
+	display: block;
+	/*position: absolute;*/
+	top: 121px;
+	left: 108px;
+	/*right: 720px;*/
+	/*z-index: 99;*/
+}
+
+.img_article_2 {
+
+
+		/*height: 572px;*/
+		position: relative;
+		top: 127px;	
+	   padding-top: 197px;
+		padding-left: 70px; 
+		padding-bottom: 180px; 
+    	margin-left: 106px;
+    	right: 70px;
+		text-align: left;		
+		background: url("../img/img_article2.png") no-repeat left ; 	
+		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+}
+
+.Article_2 .Surf_Ca{
+	position: relative;
+	top: 40px;	
+    left: -90px;
+}
+.Article_2 .lg_articl {
+	position: relative;
+	top: 0px;	
+   /*left: 420px;*/
+   display: block;
+ 	height: 34px;
+}
+.Article_2 .lg_temp_article{
+	/*position: absolute;*/
+	/*top: 0px;	*/
+		top: 173px;
+    /*left: 567px;*/
+    display: block;
+}
+
+.Article_2 .temp_indents{
+	/*position: absolute;*/
+	/*top: 0px;	*/
+	top: 307px;
+    /*left: 567px;*/
+    display: block;
+}
+
+.Subscribe{
+
+	padding-top: 310px;
+	height: 439px;
+	display: block;
+	/*position: absolute;*/
+	top: 121px;
+	left: 108px;
+	right: 720px;
+	z-index: 99;
+	align-items: center;
+text-align: center;
+
+}
+
+.Join_ {
+	/* Style for "Join the C" */
+width: 262px;
+
+color: #333333;
+font-family: "Playfair Display", Arial, sans-serif;
+font-size: 42px;
+font-weight: 700;
+line-height: 66px;
+margin-left: 590px;
+display: block;
+position: relative;
+/* Text style for "Join the C" */
+letter-spacing: 0.42px;
+}
+
+.Subscribe h2 :after {
+	content:  '';
+	display: block;
+	width: 2px;
+	height: 100px;
+	background-color: #5da8ef;
+	position: absolute;
+	margin: -212px 0 0 130px; 
+}
+
+.Subscribe .lg_temp_article {
+
+	/*width: 557px;*/
+	height: 36px;
+	left: 137px;
+	align-items: center;
+	text-align: center;
+		padding: 12px 0 0 100px; 
+}
+
+.Media_Shop {
+
+	height: 646px;
+}
+
+.temp {
+
+	height: 50px;
+}
+
+.img_conact {
+	position: relative;
+
+	height: 475px;
+	top: 226px;	
+    /*left: 309px;*/
+	padding-top: 80px;
+	padding-left: 620px; 
+	/*padding-bottom: 180px; */
+   /*margin-left: 14px;*/
+   /*margin-right: 88px;*/
+	/*text-align: left;		*/
+	/*padding-bottom: 580px;*/
+	margin-bottom: 320px;
+ 	
+	background: url("../img/img_contact.png") no-repeat left ; 	
+	/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+}
+
+.Contact .ca {
+		/* Style for "CA 91932," */
+	width: 336px;
+	/*height: 116px;*/
+	color: #333333;
+	font-family: "Playfair Display";
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 46px;
+	/* Text style for "C, A , 919" */
+	letter-spacing: 0.32px;
+	left: 193px;
+	    top: 14px;
+}
+
+.Contact .Get_in {
+	top: 29px;
+}
+ 
+.Contact .Our {
+		/* Style for "Our Camp" */
+	width: 91px;
+	height: 8px;
+	opacity: 0.27;
+	color: #0b0c11;
+	font-family: "League Spartan";
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 66px;
+	text-transform: uppercase;
+	/* Text style for "O, ur Camp" */
+	letter-spacing: 5.58px;
+}  
+
+.Contact .Read_More :after {
+	width: 125px;
+	height: 2px;
+} 
+
+
+
+
+/*----------foter--------------*/
+
+
+
+footer {
+	position: relative;
+	top: 5px;
+	left: 712px;
+	/*right: 720px;*/
+	/*z-index: 99;*/
+}
+
+.footer-wrap {
+	/*display: flex;*/
+	/*align-items: center;*/
+	justify-content: space-between;
+	text-align: left;
+}
+
+footer .menu {
+
+    position: relative;
+    /* display: block; */
+    top: 20px;
+    left: -387px;
+}
+
+
+@media  { max-width: 1200px;}
+
+/*.main {
+	max-width:1200px;
+	margin: 0 0;
+	padding: 0 10 px;
+}
+
+.wrapper {
+	max-width:1400px;
+	margin: 0 0;
+	padding: 0 10 px;
+}*/

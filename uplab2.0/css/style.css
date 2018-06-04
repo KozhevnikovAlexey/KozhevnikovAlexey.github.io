@@ -4,20 +4,18 @@ body {
 	font-size: 14px;	
 	background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; 
 	/*background: url("../img/bg-color.png")  repeat-y 0 0;*/
-	/*margin:0 ;*/
-	/*max-width:100%;*/
 }
 
 .main {
 	max-width:1100px;
 	margin: 0 0;
-
+	padding: 0 0 ;
 }
 
 .wrapper {
-	/*max-width:1100px;*/
+	max-width:1100px;
 	margin: 0 0;
-	padding: 0 0 px;
+	padding: 0 0px;
 }
 
 h1 .lg_temp {
@@ -210,6 +208,8 @@ header {
 }
 
 
+
+
 .Media_Content-video {
 	align-items: flex-start;
 	position: relative; 
@@ -219,6 +219,21 @@ header {
 	top: -440px;
 	margin-right: 70px;
 	box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);
+}
+
+.Media_Content_icon-video {
+	position: absolute;		
+	 left: 780px;
+    top: -807px;
+	bottom: 0;
+	right: 0;
+	font-size: 28px;
+	/*сolor : #000;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 99;
+
 }
 
 
@@ -271,7 +286,7 @@ header {
 	/*align-items: flex-start;*/
 	/*display: flex;*/
 	margin-top: 90px;
-	margin-left: 180px;
+	/*/margin-left: 180px;*/
    /*padding-top: 0px;*/
 	/*padding-bottom: 310px;*/
 	/*height: 439px;*/
@@ -319,32 +334,37 @@ h6 .Surf_Ca{
 	top: 36px;	
    /*left: 1257px;*/
 }
-.img_article {/*
-	align-items: flex-start;
-	left: 131px;
-	position: relative;
-	top: 88px;	
-	padding-bottom: 114px; 
-	padding-top: 70px;
-	padding-left: 49px;
-
-	text-align: left;			
-	background: url("../img/img_article1.png") no-repeat right ; */
-}
 
 .img_article {
+	/*padding: 72px 0px 10px 18px ;*/
+	/*margin-right: 15px;*/
 		height: 439px;
 		align-items: flex-start;
-		/*position: relative;*/
-		top: 91px;	
-	 /*  padding-top: 71px;
-		padding-left: 180px; 
-		padding-bottom: 180px; */
-    	/*margin-left: 106px;*/
-  
+		position: relative;
+		/*top: 5px;	*/
+		/*left: 230px;*/
+	 
 		text-align: left;		
 		background: url("../img/img_article1.png") no-repeat right ; 	
 		/*margin-right:15px;*/
+		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+}
+
+
+
+.banner_position_01 {
+		height: 572px;
+		align-items: flex-start;
+		position: relative;
+		    top: 24px;
+    padding-top: 137px;
+    padding-left: 31px;
+    padding-bottom: 180px;
+    	/*margin-left: 106px;*/
+  
+		text-align: left;		
+		background: url("../img/img_article1.png") no-repeat center right ; 	
+		margin-right:70px;
 		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
 }
 .lg_articl {
@@ -373,8 +393,8 @@ h6 .Surf_Ca{
 }
 
 .temp_indents {
-	/*position: relative;*/
-	/*left: 146px;*/
+	position: relative;
+	left: 146px;
 }
 
 .lg_temp_article {
@@ -416,20 +436,16 @@ float: left;
 }
 
 .img_article_2 {
-
-
-		/*height: 572px;*/
-		left: 219px;
-		position: relative;
-		top: 108px;	
-	   padding-top: 173px;
-		padding-left: 565px; 
-		padding-bottom: 187px; 
+	    left: 219px;
+    position: relative;
+    top: 88px;
+    padding-top: 118px;
+    padding-left: 565px;
+    padding-bottom: 121px;
     	margin-left: 106px;
     	right: 70px;
 		text-align: left;		
 		background: url("../img/img_article2.png") no-repeat left ; 	
-		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
 }
 
 .Article_2 .Surf_Ca{
@@ -444,6 +460,9 @@ float: left;
    display: block;
  	/*height: 34px;*/
 }
+
+
+
 .Article_2 .lg_temp_article{
 	/*position: absolute;*/
 	/*top: 0px;	*/
@@ -459,6 +478,19 @@ float: left;
     /*left: 567px;*/
     display: block;
 }
+
+
+.position {
+	float: left;
+	position: absolute;
+}
+
+.img_article_002, .img_article_001 {
+float: left;
+position: absolute;
+background: url("../img/02.png") no-repeat left ; 
+}
+
 
 .Subscribe{
 
@@ -589,29 +621,34 @@ letter-spacing: 0.42px;
 footer {
 	position: relative;
 	top: 5px;
-	left: 712px;
-	/*right: 720px;*/
-	/*z-index: 99;*/
+	 text-align: center;
+    vertical-align: middle;
+    height: 150px;
+    margin: 0px 8%;
+
 }
 
-.footer-wrap {
-	/*display: flex;*/
-	/*align-items: center;*/
-	justify-content: space-between;
-	text-align: left;
+footer .logo {
+	/*margin-/right: 5200px;*/
+	margin: 39px 600px;
+}
+ 
+footer .menu  {
+	margin: 0 219px;
 }
 
-footer .menu {
-
-    position: relative;
-    /* display: block; */
-    top: 20px;
-    left: -387px;
+.social_link {
+/*width: 19px;*/
+font-size: 19px;
+/*background-color: #ebebeb;*/
 }
 
+@media  { max-width: 1100px;}
 
-@media  { max-width: 1200px;}
+.position_01 {
+    height: 189px;
 
+}
 /*.main {
 	max-width:1200px;
 	margin: 0 0;

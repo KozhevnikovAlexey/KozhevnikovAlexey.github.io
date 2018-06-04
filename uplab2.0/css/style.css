@@ -4,20 +4,20 @@ body {
 	font-size: 14px;	
 	background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; 
 	/*background: url("../img/bg-color.png")  repeat-y 0 0;*/
-	margin:0 ;
-	max-width:100%;
+	/*margin:0 ;*/
+	/*max-width:100%;*/
 }
 
 .main {
-	max-width:1200px;
+	max-width:1100px;
 	margin: 0 0;
-	padding: 0 10 px;
+
 }
 
 .wrapper {
-	max-width:1400px;
+	/*max-width:1100px;*/
 	margin: 0 0;
-	padding: 0 10 px;
+	padding: 0 0 px;
 }
 
 h1 .lg_temp {
@@ -58,6 +58,7 @@ header {
 	left: 108px;
 	right: 720px;
 	z-index: 99;
+
 }
 
 .header-wrap {
@@ -73,14 +74,13 @@ header {
 		position: relative;
 		top: 127px;	
 	   padding-top: 196px;
-		padding-left: 65px; 
+		padding-left: 106px; 
 		padding-bottom: 180px; 
     	/*margin-left: 106px;*/
   
 		text-align: left;		
-		background: url("../img/slad.png") no-repeat center ; 	
-		  	left:40px;
-		  	margin-right:0px;
+		background: url("../img/slad.png") no-repeat center right ; 	
+		margin-right:70px;
 		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
 }
 
@@ -134,7 +134,7 @@ header {
 
 
 .hadding h2 {
-	margin: 0  106px 0 415px ;
+	margin: 0  0px 0 411px ;
 	opacity: 0.9;	
 	color: #333333;
 	font-family: "Playfair Display", Arial, sans-serif;
@@ -217,6 +217,8 @@ header {
 	margin-top: -109px;
 	left: 400px;
 	top: -440px;
+	margin-right: 70px;
+	box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);
 }
 
 
@@ -241,7 +243,7 @@ header {
 	font-family: "League Spartan";
 	font-size: 9px;
 	font-weight: 700;
-	line-height: 97px;
+	line-height: 93px;
 	text-transform: uppercase;
 	/* Text style for "R, ead Mor" */
 	letter-spacing: 5.4px;
@@ -266,15 +268,19 @@ header {
 }
 
 .Article_1{
-   padding-top: 0px;
-	padding-bottom: 310px;
-	height: 439px;
-	display: block;
-	position: absolute;
-	top: 38px;
-	left: 108px;
-	right: 720px;
-	z-index: 99;
+	/*align-items: flex-start;*/
+	/*display: flex;*/
+	margin-top: 90px;
+	margin-left: 180px;
+   /*padding-top: 0px;*/
+	/*padding-bottom: 310px;*/
+	/*height: 439px;*/
+	/*display: block;*/
+	/*position: absolute;*/
+	/*top: 38px;*/
+	/*left: 108px;*/
+	/*right: 720px;*/
+	/*z-index: 99;*/
 }
 
 h6 .Surf_Ca{
@@ -303,11 +309,9 @@ h6 .Surf_Ca{
 	-webkit-transform-origin: left top 0;
 	transform-origin: left top 0;
 
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 	padding: 0;
-	float: left;
-	/*height:80px;
-	width:5px;*/
+	float: right;
 	white-space: nowrap;
 }
 .Article_1 .Surf_Ca{
@@ -315,20 +319,34 @@ h6 .Surf_Ca{
 	top: 36px;	
    /*left: 1257px;*/
 }
-.img_article {
+.img_article {/*
 	align-items: flex-start;
 	left: 131px;
 	position: relative;
 	top: 88px;	
-	padding-bottom: 180px; 
+	padding-bottom: 114px; 
 	padding-top: 70px;
 	padding-left: 49px;
-   margin-left: 0px;
-   right: 70px;
+
 	text-align: left;			
-	background: url("../img/img_article1.png") no-repeat right ; 
+	background: url("../img/img_article1.png") no-repeat right ; */
 }
 
+.img_article {
+		height: 439px;
+		align-items: flex-start;
+		/*position: relative;*/
+		top: 91px;	
+	 /*  padding-top: 71px;
+		padding-left: 180px; 
+		padding-bottom: 180px; */
+    	/*margin-left: 106px;*/
+  
+		text-align: left;		
+		background: url("../img/img_article1.png") no-repeat right ; 	
+		/*margin-right:15px;*/
+		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+}
 .lg_articl {
 	color: #333333;
 	font-family: "Playfair Display", Arial, sans-serif;
@@ -355,7 +373,7 @@ h6 .Surf_Ca{
 }
 
 .temp_indents {
-	position: relative;
+	/*position: relative;*/
 	/*left: 146px;*/
 }
 
@@ -370,19 +388,28 @@ h6 .Surf_Ca{
 	line-height: 24px;
 	/* Text style for "B, y bette" */
 	letter-spacing: 0.35px;
-	display: block;
+	/*display: block;*/
+}
+
+.Article_1-img {
+	float: right;
 }
 
 .Article_1 .Read_More {
 	top: 49px;
 }
 
+.widt {
+width:  336px ;
+float: left;
+}
+
 .Article_2 {
 	padding-top: 310px;
-	height: 439px;
+	/*height: 439px;*/
 	display: block;
 	/*position: absolute;*/
-	top: 121px;
+	/*top: 112px;*/
 	left: 108px;
 	/*right: 720px;*/
 	/*z-index: 99;*/
@@ -392,11 +419,12 @@ h6 .Surf_Ca{
 
 
 		/*height: 572px;*/
+		left: 219px;
 		position: relative;
-		top: 127px;	
-	   padding-top: 197px;
-		padding-left: 70px; 
-		padding-bottom: 180px; 
+		top: 108px;	
+	   padding-top: 173px;
+		padding-left: 565px; 
+		padding-bottom: 187px; 
     	margin-left: 106px;
     	right: 70px;
 		text-align: left;		
@@ -411,10 +439,10 @@ h6 .Surf_Ca{
 }
 .Article_2 .lg_articl {
 	position: relative;
-	top: 0px;	
+	/*top: 0px;	*/
    /*left: 420px;*/
    display: block;
- 	height: 34px;
+ 	/*height: 34px;*/
 }
 .Article_2 .lg_temp_article{
 	/*position: absolute;*/
@@ -443,7 +471,7 @@ h6 .Surf_Ca{
 	right: 720px;
 	z-index: 99;
 	align-items: center;
-text-align: center;
+	text-align: center;
 
 }
 

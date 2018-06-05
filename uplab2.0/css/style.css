@@ -2,8 +2,8 @@ body {
 	color: #616161;
 	font-family: Poppins, Arial, sans-serif;
 	font-size: 14px;	
-	background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; 
-	/*background: url("../img/bg-color.png")  repeat-y 0 0;*/
+	/*background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; */
+	background: url("../img/bg-color.png")  repeat-y 0 0;
 }
 
 .main {
@@ -14,7 +14,7 @@ body {
 
 .wrapper {
 	max-width:1100px;
-	margin: 0 0;
+	margin: 0 0px;
 	padding: 0 0px;
 }
 
@@ -74,6 +74,7 @@ header {
 	   padding-top: 196px;
 		padding-left: 106px; 
 		padding-bottom: 180px; 
+   	padding-right: 0px;
     	/*margin-left: 106px;*/
   
 		text-align: left;		
@@ -120,7 +121,7 @@ header {
 }
 
 .quote {
-			padding-top: 310px;
+	padding-top: 310px;
 }
 
 .hadding {
@@ -179,6 +180,60 @@ header {
 	line-height: 24px;
 	letter-spacing: 0.35px;	
 	display: block;
+}
+
+.social_lin {
+	margin-top: 31px;
+	font-size: 19px;
+	padding: auto;
+	display: block;
+}
+
+.social_lin:hover {
+	color: #FFE400;
+}
+
+.social_banner {
+	 position: absolute;
+	/* float: right;*/
+	 top: 415px;
+	 margin-left: 94%;
+
+		vertical-align: middle;
+		align-items: center;
+}
+
+.style-vert{
+
+	opacity: 0.2;
+	color: #0b0c11;
+	font-family: "League Spartan",Arial, sans-serif;
+	font-size: 9px;
+	font-weight: 700;
+	/*line-height: 26px;*/
+	text-transform: uppercase;
+	/* Text style for "F, irst Su" */
+	letter-spacing: 5.4px;
+}
+
+.vert-text{
+	-ms-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+
+	-ms-transform-origin: left top 0;
+	-moz-transform-origin: left top 0;
+	-webkit-transform-origin: left top 0;
+	transform-origin: left top 0;
+
+	/*margin-left: 30px;*/
+	/*padding: 0;*/
+	float: right;
+	position: absolute;
+	margin-left: 95%;
+	
+	white-space: nowrap;
 }
 
 .Media_Content {
@@ -298,49 +353,8 @@ header {
 	/*z-index: 99;*/
 }
 
-.style-vert{
 
-	opacity: 0.2;
-	color: #0b0c11;
-	font-family: "League Spartan",Arial, sans-serif;
-	font-size: 9px;
-	font-weight: 700;
-	/*line-height: 26px;*/
-	text-transform: uppercase;
-	/* Text style for "F, irst Su" */
-	letter-spacing: 5.4px;
-}
 
-.vert-text{
-	-ms-transform: rotate(270deg);
-	-moz-transform: rotate(270deg);
-	-webkit-transform: rotate(270deg);
-	transform: rotate(270deg);
-
-	-ms-transform-origin: left top 0;
-	-moz-transform-origin: left top 0;
-	-webkit-transform-origin: left top 0;
-	transform-origin: left top 0;
-
-	/*margin-left: 30px;*/
-	/*padding: 0;*/
-	float: right;
-	white-space: nowrap;
-}
-
-.vert-text-position {
-	position: absolute;
-	top:306px;
-	/*float: right;*/
-	left: 1324px;
-	/*text-align: right;	*/
-	
-
-	/*align-items: flex-start;*/
-	/*position: relative;*/
-	/*margin-right:10px;*/
-	z-index: 99;
-}
 
 
 
@@ -521,6 +535,33 @@ background: url("../img/02.png") no-repeat left ;
 	text-align: center;
 
 }
+.vert-text-position {
+	position: absolute;
+	margin-left: 95%;
+	
+	z-index: 99;
+}
+
+.vert-text-position_01 {
+	position: relative;
+	margin-left: 95%;
+	float: left;
+	z-index: 99;
+	/*padding-top: 310px;*/
+   /*top: 88px;*/
+	
+
+}
+.vert-text-position_02 {
+	position: relative;
+	 margin-left: 0%;
+    float: left;
+    z-index: 99;
+    padding-top: 295px;
+    top: 188px;
+	
+
+}
 
 .Join_ {
 	/* Style for "Join the C" */
@@ -650,13 +691,43 @@ footer .logo {
  
 footer .menu  {
 	margin: 0 219px;
+	margin-bottom: 34px;
 }
 
 .social_link {
 /*width: 19px;*/
 font-size: 19px;
+
+margin-right: 20px;
+/*margin-bottom: 98px;*/
 /*background-color: #ebebeb;*/
 }
+
+.icon-tumblr{
+	font-size: 21px;
+}
+
+.social {color: red;
+
+	margin-left: 10%;
+
+	margin-bottom: 98px;
+}
+
+ img , .scale {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ transition: all 1s ease-out;
+ }
+ 
+ img:hover, .scale:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ transform: scale(1.2);
+ }
+
 
 @media  { max-width: 1100px;}
 

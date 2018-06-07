@@ -3,7 +3,7 @@ body {
 	font-family: Poppins, Arial, sans-serif;
 	font-size: 14px;	
 	/*background: url("../img/Surfing Free Theme.psd.png")  no-repeat scroll left top; */
-	background: url("../img/bg-color.png")  repeat-y 0 0;
+	background: url("../	 img/bg-color.png")  repeat-y 0 0;
 }
 
 .main {
@@ -424,6 +424,7 @@ header {
 .temp_indents {
 	position: relative;
 	left: 146px;
+	z-index: 99;
 }
 
 .lg_temp_article {
@@ -487,6 +488,7 @@ float: left;
 	/*top: 0px;	*/
    /*left: 420px;*/
    display: block;
+   z-index: 99;
  	/*height: 34px;*/
 }
 
@@ -514,11 +516,22 @@ float: left;
 	position: absolute;
 }
 
-.img_article_002, .img_article_001 {
-float: left;
-position: absolute;
-background: url("../img/02.png") no-repeat left ; 
+.img_article_002 {
+	float: left;
+	position: absolute;
+    margin-left: 0%;
+    top: -60px;
+    z-index: 1;
 }
+ .img_article_001 {
+	float: left;
+	position: absolute;
+    left: 179px;
+    top: 77px;
+    z-index: 1;
+}
+
+
 
 
 .Subscribe{

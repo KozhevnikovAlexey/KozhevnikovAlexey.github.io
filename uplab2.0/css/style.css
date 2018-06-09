@@ -199,8 +199,12 @@ header {
 	 top: 415px;
 	 margin-left: 94%;
 
-		vertical-align: middle;
-		align-items: center;
+	vertical-align: middle;
+	align-items: center;
+	display: flex;
+	flex-direction:  column;
+	justify-content: space-between; 
+	/*-расстояние между иконками и границами дива */
 }
 
 .style-vert{
@@ -435,18 +439,19 @@ header {
 	font-family: Poppins, Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
-	line-height: 24px;
+	line-height: 25px;
 	/* Text style for "B, y bette" */
 	letter-spacing: 0.35px;
-	/*display: block;*/
+	display: block;
 }
 
 .Article_1-img {
 	float: right;
 }
 
-.Article_1 .Read_More {
+.Read_More {
 	top: 49px;
+	display: block;
 }
 
 .widt {
@@ -456,7 +461,7 @@ float: left;
 
 .Article_2 {
 	padding-top: 310px;
-	/*height: 439px;*/
+	height: 439px;
 	display: block;
 	/*position: absolute;*/
 	/*top: 112px;*/
@@ -468,14 +473,15 @@ float: left;
 .img_article_2 {
 	    left: 219px;
     position: relative;
-    top: 88px;
-    padding-top: 118px;
+    top: 80px;
+    padding-top: 69px;
     padding-left: 565px;
-    padding-bottom: 121px;
+    /*padding-bottom: 121px;*/
     	margin-left: 106px;
     	right: 70px;
 		text-align: left;		
-		background: url("../img/img_article2.png") no-repeat left ; 	
+		background: url("../img/img_article2.png") no-repeat left ;
+		margin-bottom: 339px; 	
 }
 
 .Article_2 .Surf_Ca{
@@ -483,6 +489,7 @@ float: left;
 	top: 40px;	
     left: -90px;
 }
+
 .Article_2 .lg_articl {
 	position: relative;
 	/*top: 0px;	*/
@@ -492,20 +499,24 @@ float: left;
  	/*height: 34px;*/
 }
 
+.Article_2 .Read_More{
+	position: relative;
+	top: 49px;
+	display: block;
+}
 
-
-.Article_2 .lg_temp_article{
-	/*position: absolute;*/
+.lg_temp_article{
+	position: relative;
 	/*top: 0px;	*/
-		top: 173px;
+		/*top: 32px;*/
     /*left: 567px;*/
-    display: block;
+    diplay: block;
 }
 
 .Article_2 .temp_indents{
-	/*position: absolute;*/
+	position: relative;
 	/*top: 0px;	*/
-	top: 307px;
+	/*top: 307px;*/
     /*left: 567px;*/
     display: block;
 }
@@ -518,12 +529,13 @@ float: left;
 
 .img_article_002 {
 	float: left;
-	position: absolute;
+		position: absolute;
     margin-left: 0%;
     top: -60px;
     z-index: 1;
 }
- .img_article_001 {
+
+.img_article_001 {
 	float: left;
 	position: absolute;
     left: 179px;
@@ -536,8 +548,8 @@ float: left;
 
 .Subscribe{
 
-	padding-top: 310px;
-	height: 439px;
+	/*padding-top: 310px;*/
+	/*height: 439px;*/
 	display: block;
 	/*position: absolute;*/
 	top: 121px;
@@ -609,7 +621,7 @@ letter-spacing: 0.42px;
 	left: 137px;
 	align-items: center;
 	text-align: center;
-		padding: 12px 0 0 100px; 
+		/*padding: 12px 0 0 100px; */
 }
 
 .Media_Shop {
@@ -626,7 +638,7 @@ letter-spacing: 0.42px;
 	position: relative;
 
 	height: 475px;
-	top: 226px;	
+	top: 181px;	
     /*left: 309px;*/
 	padding-top: 80px;
 	padding-left: 620px; 
@@ -635,7 +647,7 @@ letter-spacing: 0.42px;
    /*margin-right: 88px;*/
 	/*text-align: left;		*/
 	/*padding-bottom: 580px;*/
-	margin-bottom: 320px;
+	margin-bottom: 234px;
  	
 	background: url("../img/img_contact.png") no-repeat left ; 	
 	/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/

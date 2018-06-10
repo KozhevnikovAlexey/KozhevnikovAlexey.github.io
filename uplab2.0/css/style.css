@@ -79,8 +79,9 @@ header {
   
 		text-align: left;		
 		background: url("../img/slad.png") no-repeat center right ; 	
+		 /*-webkit-background-origin: em;
+		 background-origin: em;x-shadow: inset -16px 25px 65px rgba(11, 12, 17, 0.2);*/
 		margin-right:70px;
-		/*box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);*/
 }
 
 .logo a {
@@ -197,7 +198,7 @@ header {
 	 position: absolute;
 	/* float: right;*/
 	 top: 415px;
-	 margin-left: 94%;
+	 margin-left: 96%;
 
 	vertical-align: middle;
 	align-items: center;
@@ -235,7 +236,8 @@ header {
 	/*padding: 0;*/
 	float: right;
 	position: absolute;
-	margin-left: 95%;
+	margin-left: 97%;
+	top: 300px;
 	
 	white-space: nowrap;
 }
@@ -338,8 +340,103 @@ header {
 
 .Media_Shop{
 	/*margin-bottom: 1000px;*/
-	height: 646px;
+	/*height: 646px;*/
+	margin-top: -135px;
 }
+
+.shop {
+	/* Style for "Shop" */
+	color: #5da8ef;
+	font-family: "League Spartan";
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	/* Text style for "S, hop" */
+	letter-spacing: 5.4px;
+
+}
+
+.Surfboards {
+	/* Style for "Surfboards" */
+
+	color: #333333;
+	font-family: "Playfair Display";
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 30px;
+	/* Text style for "S, urfboar" */
+	letter-spacing: 0.42px;
+}
+
+.Media_Shop .heading {
+  text-align: center;
+  justify-content: center ;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.catalog{
+
+}
+.text_box {
+	position	: absolute;
+	top: 220px;
+	
+}
+
+.Media_Shop .subtype {
+
+color: #7a7a7a;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 300;
+text-transform: uppercase;
+letter-spacing: 2.4px;
+}
+
+
+.Media_Shop .name{/* Style for "Chilli Rar" */
+color: #333333;
+font-family: "Playfair Display";
+font-size: 26px;
+font-weight: 400;
+line-height: 28px;
+/* Text style for "C, hilli R" */
+letter-spacing: 0.26px;display:block;
+}
+
+
+.Media_Shop .price{/* Style for "$890" */
+
+color: #ce60a8;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 300;
+/* Text style for "$890" */
+letter-spacing: -0.1px;display:block;
+}
+
+.Media_Shop .currency {
+/* Style for "Buy" */
+color: #333333;
+font-family: "League Spartan";
+font-size: 9px;
+font-weight: 700;
+line-height: 66px;
+text-transform: uppercase;
+/* Text style for "B, uy" */
+letter-spacing: 5.4px;
+display:block;
+}
+
+.item_block{
+		float: left; 
+		width: 33.33333333%;
+}
+
+
 
 .Article_1{
 	/*align-items: flex-start;*/

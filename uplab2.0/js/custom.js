@@ -12,41 +12,32 @@ $(function(){
 	$(window).bind('load resize', hf);
 
 	$('.baner-slider').slick({
-		arrows:false,
-		dots: true, 
-	}) 
-	$('.center').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
-	});
-	
-$('.lazy').slick({
-  lazyLoad: 'ondemand',
-  slidesToShow: 3,
-  slidesToScroll: 1
-});
-	
+		 arrows:true,
+    dots: false,
+    appendArrows:'.banner-slider-bottons', 
+    // var num = 1;
+    prevArrow: '<button type="button" class="slick-prev"><i class = " icon-left  " ></i></button> ' ,
+    nextArrow: '<button type="button" class="slick-next"><i class = " icon-right " ></i></button>',
+     autoplay: true,
+    autoplaySpeed: 3000,
+})
+  $(".baner-slider").on('afterChange', function(event, slick, currentSlide){
+     $("#cp").text(currentSlide + 1);
+  })
+ 
+
+
+  $('.shop-slider').slick({
+    arrows:true,
+    dots: false,
+    appendArrows:'.shop-slider-bottons', 
+    prevArrow: '<button type="button" class="slick-prev"><i class = " icon-left  " ></i></button>' ,
+    nextArrow: '<button type="button" class="slick-next"><i class = " icon-right " ></i></button>',
+    autoplay: true,
+    autoplaySpeed: 2000,
+  }) 
+
+
 });
 
    

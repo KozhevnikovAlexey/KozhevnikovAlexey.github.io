@@ -76,8 +76,8 @@ header {
    	padding-right: 0px;
     	text-align: left;		
 		background: url("../img/slad.png") no-repeat center right ; 	
-		 /*-webkit-background-origin: em;
-		 background-origin: em;x-shadow: inset -16px 25px 65px rgba(11, 12, 17, 0.2);*/
+		 -webkit-background-origin: em;
+		 /*background-origin: em;x-shadow: inset -16px 25px 65px rgba(11, 12, 17, 0.2);*/
 		margin-right:70px;
 }
 

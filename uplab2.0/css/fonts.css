@@ -2,10 +2,8 @@
 /* ================================================ */
 @font-face {
 	font-family: "League Spartan";
-	src: url("/fonts/league-spartan/leaguespartan-bold.eot");
-	src: url("/fonts/league-spartan/leaguespartan-bold.eot?#iefix") format("embedded-opentype"),
-			 url("/fonts/league-spartan/leaguespartan-bold.woff") format("woff"),
-			 url("/fonts/league-spartan/leaguespartan-bold.ttf") format("truetype");
-	font-style: normal;
+	src: url("../fonts/league-spartan/leaguespartan-bold.woff2")format("woff2"),
+		  url("../fonts/league-spartan/leaguespartan-bold.woff") format("woff");
+	font-weight: bold;
 	font-weight: normal;
 }

@@ -726,7 +726,7 @@ input::-webkit-input-placeholder {
 	/* Style for "Your E-mai" */
 	opacity: 0.9;
 	color: #333333;
-	font-family: "League Spartan";
+	font-family: "League Spartan",Arial, sans-serif;
 	font-size: 9px;
 	font-weight: 700;
 	line-height: 66px;
@@ -739,7 +739,7 @@ input:-moz-placeholder {
 	/* Style for "Your E-mai" */
 	opacity: 0.9;
 	color: #333333;
-	font-family: "League Spartan";
+	font-family: "League Spartan",Arial, sans-serif;
 	font-size: 9px;
 	font-weight: 700;
 	line-height: 66px;
@@ -784,7 +784,7 @@ input:-moz-placeholder {
 	width: 336px;
 	/*height: 116px;*/
 	color: #333333;
-	font-family: "Playfair Display";
+	font-family: "Playfair Display",Arial, sans-serif;
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 46px;
@@ -804,7 +804,7 @@ input:-moz-placeholder {
 	height: 8px;
 	opacity: 0.27;
 	color: #0b0c11;
-	font-family: "League Spartan";
+	font-family: "League Spartan",Arial, sans-serif;
 	font-size: 9px;
 	font-weight: 700;
 	line-height: 66px;
